@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage with Three Buttons</title>
+	<style>
+		/* Define styles for the body */
+		body {
+			margin: 0;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #f2f2f2;
+		}
+
+		/* Define styles for the buttons */
+		.button {
+			display: inline-block;
+			padding: 50px 100px;
+			font-size: 35px;
+			font-weight: bold;
+			border-radius: 10px;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			margin: 10px;
+			cursor: pointer;
+			background-color: #007bff;
+			border: none;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+			transition: all 0.3s ease-in-out;
+		}
+
+		/* Define styles for the first button */
+		.button-1 {
+			background-color: #007bff;
+		}
+
+		/* Define styles for the second button */
+		.button-2 {
+			background-color: #dc3545;
+		}
+
+		/* Define styles for the third button */
+		.button-3 {
+			background-color: #28a745;
+		}
+
+		/* Define hover styles for the buttons */
+		.button:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Define the three buttons -->
+	<button class="button button-1" onclick="window.location.href='page1.html';">Kyle</button>
+	<button class="button button-2" onclick="window.location.href='page2.html';">Landon</button>
+	<button class="button button-3" onclick="window.location.href='page3.html';">Kekoa</button>
+
+</body>
+</html>
